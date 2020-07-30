@@ -1,0 +1,90 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway|Satisfy);
+@font-face {
+  font-family: 'Satisfy';
+  src: 
+       url('satisfy-regular-webfont.woff') format('woff'), /* Modern Browsers */
+       url('satisfy-regular-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('satisfy-regular-webfont.woff2') format('woff2'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Raleway';
+  src: 
+       url('raleway-regular-webfont.woff') format('woff'), /* Modern Browsers */
+       url('raleway-regular-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('raleway-regular-webfont.woff2') format('woff2'); /* Legacy iOS */
+}
+
+body {
+    font-size: 200%;
+    text-align: center;
+    font-family: Raleway;
+    background: url(pt-2.png);
+    color: white;
+}
+
+p {
+    font-size: 125%;
+    font-weight: normal;
+    margin-bottom: 0.3em;
+    margin-top: 0.3em;
+}
+
+em {
+    font-family: Satisfy;
+    font-size: 142%;
+}
+
+strong {
+    font-size: 127%;
+    letter-spacing: -2px;
+}
+
+h1 {
+    font-size: 70%;
+}
+
+h1, h2, h3, h4 {
+    font-weight: normal;
+    margin-bottom: 0.3em;
+    margin-top: 0.3em;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+li {
+    font-size: 125%;
+    font-weight: normal;
+    margin-bottom: 0.3em;
+    margin-top: 0.3em;
+    padding-left: 0.3em;
+    line-height: 1.8em;
+    list-style-type: circle;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: #7bc45c;
+}
+
+#ThreeD H1 {
+    font-size: 300%;
+}
+
+#But p {
+    font-size: 1200%;
+}
+
+#thequestion h1 {
+    font-size: 400%;
+}
+
+#Collaborations p {
+    font-size: 90%;
+}
+
+#TOC p {
+    font-size: 400%;
+}
